@@ -10,5 +10,29 @@ html {
 
 .fuck-ai-logo {
  background-color:#F4CBD7;
+ width:100px;
+ height:100px;
+ border-radius:10px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ text-align:center;
 
+}
+.fuck-ai-inner {
+  height:70%;
+  width:70%;
+ text-align:center;
+ align-items:center;
+ display:flex;
+ justify-content: center;
+ background-color:#FCA6BF;
+ border-radius:10px;
+ font-family:'MedievalSharp',cursive,serif;
+ font-size:24px;
+}
+.tiny-flower-stamp {
+  background-image: url("../images/tiny-flower.svg");
+  background-size:10px 10px;
+  background-repeat:repeat;
 }
