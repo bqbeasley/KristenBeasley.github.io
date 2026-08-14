@@ -6,6 +6,19 @@
 html {
  background-color:#F2DAE1;
 }
+.header {
+	width:100%;
+	display:flex;
+	align-items:center
+}
+.header-item {
+	width:100%;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+	padding:0;
+	margin:0;
+}
 
 
 .fuck-ai-logo {
