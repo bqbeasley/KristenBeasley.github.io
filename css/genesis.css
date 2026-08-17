@@ -1,0 +1,16 @@
+body {
+	background-color:black;
+	position:relative;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	vertical-align:center;
+	height:100%;
+	width:100%;
+}
+.genesis-text {
+	position:absolute; top 50%;
+	background-color:white;
+	height:30px;
+	width:30px;
+}

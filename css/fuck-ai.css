@@ -19,34 +19,51 @@ html {
 	padding:0;
 	margin:0;
 }
+.middle-tab-container {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.middle-tab {
+	
+}
+.wide-tab {
+  width:70%;
+}
 
+.footer {
+	justify-content:center;
+	text-align:center;
+	display:flex;
+}
+.guy-panel {
+	text-align:left;
+	width:300px;
+	margin:5em;
+}
 
 .fuck-ai-logo {
  background-color:#FCA6BF;
  width:200px;
  height:200px;
+ margin:auto;
  border-radius:10px;
  display:flex;
  justify-content: center;
  align-items:center;
- text-align:center;
-
 
 }
+
+.guy-link {
+	display:flex;
+}
+
 .medieval-p {
  font-family:'MedievalSharp',cursive,serif;
-}
-.footer {
- display: flex;
- justify-content:center;
- align-items:center;
- min-width:100vh;
- margin:0;
 }
 .fuck-ai-inner {
   height:70%;
   width:70%;
- text-align:center;
  align-items:center;
  display:flex;
  justify-content: center;
@@ -69,10 +86,10 @@ box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0p
  
 }
 .poem {
- font-family:cursive;
+ font-family:'MedievalSharp';
  text-align:center;
- font-size:11px;
- line-height:0px;
+ font-size:13px;
+ line-height:1em;
  word-spacing:0px;
  letter-spacing:0px;
 }
