@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+ <line stroke="orange" stroke-width="2" x1="50" y1="50" x2="50" y2="45"/>
+ <line stroke="purple" stroke-width="8" x1="50" x2="50" y1="50" y2="100"/>
+ <circle fill="purple" cy="100" cx="50" r="8"/>
+ <circle fill="purple" cy="50" cx="50" r="3"/>
+
+
+
+
+ <!-- flame --> 
+ <path d="M50 45 H 55 40" fill="red"/>
+
+
+
+  <circle r="1" fill="orange">
+    <animateMotion
+      dur="2s"
+      repeatCount="indefinite"
+      path="M50,45 C49,40 48,35 47,30 C46,30 40,20 45,0 " />
+  </circle>
+  <circle r="1" fill="orange">
+    <animateMotion
+      dur="1s"
+      repeatCount="indefinite"
+      path="M50,45 C51,40 51,35 53,30 C54,30 55,20 53,0 " />
+  </circle>
+  <circle r="1" fill="orange">
+    <animateMotion
+      dur="1s"
+      repeatCount="indefinite"
+      path="M50,45 C51,40 51,35 53,30 C54,30 55,20 53,0 " />
+  </circle>
+ 
+</svg>
