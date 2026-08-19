@@ -1,3 +1,9 @@
+html {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
 body {
 	background-color:black;
 	position:relative;
@@ -7,10 +13,29 @@ body {
 	vertical-align:center;
 	height:100%;
 	width:100%;
+	margin:0;
+	padding:0;
 }
 .genesis-text {
 	position:absolute; top 50%;
 	background-color:white;
 	height:30px;
 	width:30px;
+}
+#light {
+    fill: #F2DAE1;
+    cy: 100;
+    transition: cy 4s ease-out, cx 4s ease-out, r 4s ease-out;
+}
+#light.risen  { r: 1;  cy: 50%; cx: 50%; }
+#light.expand { r: 2000; cy: 50%; cx: 50%; }
+
+#word {
+    font-family: 'MedievalSharp';
+    font-size: 1em;
+    fill: white;
+}
+
+.hidden {
+	color:"pink"
 }

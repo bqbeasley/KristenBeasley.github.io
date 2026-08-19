@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">
+ <text id="word" x="50%" y="10%" fill="white" font-size="1em" ></text>
+ <circle class="hidden" id="light" fill="white" r="1" cx="60.5%" cy="10%"/>
+</svg>
+
