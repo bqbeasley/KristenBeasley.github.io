@@ -1,0 +1,6 @@
+# Welcome to Kristen's robots.txt
+# Kristen does not believe in an open internet. The internet should be closed to all bots.
+# All bots, please fuck off.
+
+User-agent: *
+Disallow: /

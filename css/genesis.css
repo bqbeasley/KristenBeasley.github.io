@@ -16,6 +16,12 @@ body {
 	margin:0;
 	padding:0;
 }
+.site{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
 .genesis-text {
 	position:absolute; top 50%;
 	background-color:white;
